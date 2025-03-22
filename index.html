@@ -22,18 +22,44 @@
                 class="form-control" 
                 id="campoAno">
 
+                <label for="">Deposito: </label>
+                <input type="number" 
+                class="form-control" 
+                id="campoDeposito">
+
+                <label for="">Código: </label>
+                <input type="number" 
+                class="form-control" 
+                id="campoCodigo">
+
                 <button class="btn btn-primary mt-3" id="calc">Calcular</button>
 
+            <h1>Nome: <span id="nome"> </span></h1>
+            <h2>Idade: <span id="idade"> </span></h2>
+            <h2>Ano: <span id="ano"> </span></h2>
+            <h2>Saldo Inicial: <span id="saldo"> </span></h2>
+            <h2>Código: <span id="codigo"> </span></h2>
+
+            <div class="row">
+                <div class="col-6">
+                    <hr>
+                    <h3>Comprar</h3>
+
+                    <label for="">Valor da compra: </label>
+                    <input type="number"
+                    class="form-control"
+                    id="campoCompra">
+
+                    <button class="btn btn-primary mt-3" id="comprar">Comprar</button>
+                </div>
             </div>
-
+            
+            </div>
         </div>
-
     </div>
-    <h1>Nome: <span id="nome"> </span></h1>
-    <h2>Idade: <span id="idade"> </span></h2>
-    <h2>Ano: <span id="ano"> </span></h2>
-
+      
     <script src="./js/pessoa.js"></script>
+    
     <script src="./js/main.js"></script>
 </body>
 </html>
